@@ -1,0 +1,61 @@
+:root{
+    --bs-blue: #037BC0;
+    --bs-green: #8cbc00;
+ 
+ }
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    font-family: "raleway";
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.hero{
+    background-image: url(img/principal.jpg);
+    height: 25rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+.muebles{
+    color:#037BC0;
+}
+
+h1, h2, h3{
+    font-family: "playfair";
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2, h3{
+    font-size: 4rem;
+}
+
+.hero{
+    background-image: url(img/principal.jpg);
+    background-repeat: no-repeat;
+    height: 55rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media  screen and (max-width: 768px) {
+    .hero{
+        background-image: url(img/principal.jpg);
+        background-repeat: no-repeat;
+        height: 25rem;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+
