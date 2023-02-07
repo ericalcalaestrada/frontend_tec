@@ -1,13 +1,11 @@
 :root{
-    --bs-blue: #037BC0;
-    --bs-green: #8cbc00;
- 
+    --bs-primary: #037BC0;
+    --bs-success: #8cbc00;
  }
 
 html{
     font-size: 62.5%;
 }
-
 
 body{
     font-family: "raleway";
@@ -45,6 +43,14 @@ h2, h3{
     width: 100%;
     background-size: cover;
     background-position: center center;
+}
+
+.btn-success{
+    background-color: var(--bs-success) !important;
+}
+
+.bg-primary{
+    background-color: var(--bs-primary) !important;
 }
 
 @media  screen and (max-width: 768px) {
